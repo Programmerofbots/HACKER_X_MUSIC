@@ -121,7 +121,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(
 
 
 if UPSTREAM_REPO:
-    if not re.match(https://t.me/O_P_Hacker):
+    if not re.match("(?:http|https)://t.me/O_P_Hacker):
         print(
             "[ERROR] - Your UPSTREAM_REPO url is wrong. Please ensure that it starts with https://"
         )
