@@ -328,6 +328,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✯Owner✯ ", url=f"https://t.me/Princes_log_support_group"
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
